@@ -11,19 +11,19 @@ import java.util.Scanner;
  * @author CTI6345
  */
 public class Fundamental1 {
-
+private static final Scanner read = new Scanner (System.in);
     /**
      * @param args the command line arguments
      */
     public static void main(String[] args) {
         int num, num2, resultado;
-        Scanner leer = new Scanner(System.in);
+        
         
         System.out.println("Por favor ingrese el primer numero");
-        num = leer.nextInt();
+        num = read.nextInt();
         
         System.out.println("Por favor ingrese el segundo numero");
-        num2 = leer.nextInt();
+        num2 = read.nextInt();
         
         resultado = num + num2;
         
